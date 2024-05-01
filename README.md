@@ -75,10 +75,18 @@ Each line represents a different map size, allowing for comparisons across diffe
 
 
 
+## Compatibility Note for Windows Users:
 
+If you encounter compatibility issues running the provided code in your Anaconda environment on Windows, you're not alone. Python package management and environment setup can sometimes be challenging on Windows systems due to differences in library dependencies and system configurations.
 
+For seamless execution and hassle-free setup, I recommend using Google Colab, a cloud-based Jupyter notebook environment. Colab provides a ready-to-use Python environment with pre-installed libraries, ensuring smooth execution of the code without the need for manual installation or configuration.
 
+To access this project in Colab, simply click [here](https://colab.research.google.com/drive/1qNuQe5AutxZTiKtpX7vvQlfKgxMNpXeT?usp=sharing) and create a copy for you, allowing you to run the code interactively in the cloud, regardless of your operating system.
 
+## Contact me 📨
+
+- **LinkedIn:** [Bilal Fatian](https://www.linkedin.com/in/bilal-fatian-806813254/)
+- **Gmail:** [fatian.bilal@gmail.com](mailto:fatian.bilal@gmail.com)
 
 
 
