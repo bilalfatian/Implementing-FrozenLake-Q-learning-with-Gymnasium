@@ -1,7 +1,7 @@
 # Implementing-FrozenLake-Q-learning-with-Gymnasium
 
 
-## Introduction:
+## Introduction 📝
 
 Welcome to the FrozenLake Q-learning project! This repository explores the fascinating realm of reinforcement learning (RL) through the implementation of Q-learning on the FrozenLake environment. Below, you'll find an overview of Gymnasium, FrozenLake Q-learning, and the objectives of this project.
 
@@ -17,7 +17,7 @@ FrozenLake is a classic RL environment included in Gymnasium, where an agent mus
 
 In this project, we delve into the intricacies of RL by implementing Q-learning on the FrozenLake environment using Python. We aim to explore how the agent learns to navigate the environment, analyze its performance metrics, and visualize its decision-making process. Through this journey, we gain insights into the principles of RL, the challenges of environment exploration, and the efficacy of Q-learning in solving complex tasks.
 
-## Simulation and Visualization:
+## Simulation and Visualization 🔮
 
 - **State Distribution:**
 
@@ -75,7 +75,7 @@ Each line represents a different map size, allowing for comparisons across diffe
 
 
 
-## Compatibility Note for Windows Users:
+## Compatibility Note for Windows Users 🖥️
 
 If you encounter compatibility issues running the provided code in your Anaconda environment on Windows, you're not alone. Python package management and environment setup can sometimes be challenging on Windows systems due to differences in library dependencies and system configurations.
 
