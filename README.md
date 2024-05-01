@@ -83,6 +83,8 @@ For seamless execution and hassle-free setup, I recommend using Google Colab, a 
 
 To access this project in Colab, simply click [here](https://colab.research.google.com/drive/1qNuQe5AutxZTiKtpX7vvQlfKgxMNpXeT?usp=sharing) and create a copy for you, allowing you to run the code interactively in the cloud, regardless of your operating system.
 
+You may not be able to see the GIF simulation if you open the notebook in GitHub, so I advise you to download it or to open it from this [link](https://colab.research.google.com/drive/1qNuQe5AutxZTiKtpX7vvQlfKgxMNpXeT?usp=sharing) in Colab.
+
 ## Contact me 📨
 
 - **LinkedIn:** [Bilal Fatian](https://www.linkedin.com/in/bilal-fatian-806813254/)
