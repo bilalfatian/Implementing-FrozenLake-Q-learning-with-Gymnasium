@@ -13,6 +13,30 @@ Gymnasium serves as the foundation of this project, providing a flexible and com
 
 FrozenLake is a classic RL environment included in Gymnasium, where an agent must navigate across a frozen lake to reach a goal tile while avoiding holes. Q-learning, a fundamental RL algorithm, is employed to learn an optimal policy for traversing the FrozenLake environment. Through trial and error, the agent updates its Q-values to make informed decisions, ultimately mastering the optimal path to the goal.
 
+Here's a brief overview of how Q-learning works:
+
+1. **Initialization**: Initialize the Q-table, which is a table where each row represents a state and each column represents an action. Initially, all Q-values are set to zero.
+    
+2. **Exploration vs. Exploitation**: At each time step, the agent selects an action based on an exploration-exploitation trade-off. It either explores by taking a random action with probability epsilon (exploration), or it exploits by selecting the action with the highest Q-value for the current state (exploitation).
+    
+3. **Action Selection**: After selecting an action, the agent performs the action in the environment and observes the reward and the new state.
+    
+4. **Updating Q-values**: The agent updates the Q-value of the previous state-action pair using the observed reward and the maximum Q-value of the new state. The Q-value update follows the equation:
+
+    $$Q(s,a) \leftarrow Q(s,a) + \alpha [ r + \gamma \max_a Q(s',a) - Q(s,a) ]$$
+
+    where:
+    
+    *   $Q(s,a)$ is the Q-value of state-action pair $(s,a)$.
+    *   $\alpha$ is the learning rate.
+    *   $r$ is the reward obtained after taking action $a$ in state $s$.
+    *   $\gamma$ is the discount factor, representing the importance of future rewards.
+    *   $s'$ is the new state after taking action $a$.
+    
+5. **Repeat**: Repeat steps 2-4 for multiple episodes until convergence or a predetermined number of iterations.
+
+By updating Q-values iteratively based on observed rewards and future Q-values, Q-learning gradually learns the optimal policy for the given environment. Over time, the agent learns to take actions that maximize long-term rewards, leading to improved performance in the task.
+
 - Project Overview:
 
 In this project, we delve into the intricacies of RL by implementing Q-learning on the FrozenLake environment using Python. We aim to explore how the agent learns to navigate the environment, analyze its performance metrics, and visualize its decision-making process. Through this journey, we gain insights into the principles of RL, the challenges of environment exploration, and the efficacy of Q-learning in solving complex tasks.
